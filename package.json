@@ -1,24 +1,20 @@
 {
-  "name": "react-ts-tailwind",
+  "name": "react-ts-note",
   "version": "1.0.0",
-  "description": "This starter template for React (TypeScript) with Vite provides support for TailwindCSS with CSS-Modules and is pre-configured with Jest and @react/testing-library, ESLint, Prettier, Husky, Commit-lint, and an Atomic Design approach for components.",
-  "homepage": "https://github.com/kazim-kayhan/react-ts-tailwind#readme",
+  "description": "This is a note taking app built with React and TypeScript, utilizing the Vite build tool and styled with TailwindCSS and CSS-Modules. It comes pre-configured with testing tools such as Jest and @react/testing-library, as well as linting tools like ESLint and Prettier. It also includes Husky and Commit-lint to ensure consistent commit messages, and follows an Atomic Design approach for organizing components.",
+  "homepage": "https://github.com/kazim-kayhan/react-ts-note#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kazim-kayhan/react-ts-tailwind.git"
+    "url": "git+https://github.com/kazim-kayhan/react-ts-note.git"
   },
   "author": "Kazim Kayhan <mail4kazim.kayhan@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kazim-kayhan/react-ts-tailwind/issues"
-  },
   "keywords": [
     "react",
     "vite",
     "typescript",
     "jest",
     "tailwind",
-    "template",
     "starter",
     "css-modules",
     "eslint",
@@ -40,7 +36,8 @@
   "dependencies": {
     "@heroicons/react": "^2.0.13",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
