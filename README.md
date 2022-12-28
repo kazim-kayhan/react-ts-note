@@ -3,17 +3,11 @@
 </p>
 
 <p align='center'>
-Mocking up web apps with <b>R-Ts-T</b><sup><em>(speed)</em></sup><br>
-</p>
-
-<br>
-
-<p align='center'>
-<a href="https://react-ts-tailwind.vercel.app">Live Demo</a>
+<a href="https://react-ts-note.vercel.app">Live Demo</a>
 </p>
 
 <p align='center'>
-<a href="https://codesandbox.io/p/github/kazim-kayhan/react-ts-tailwind/sandbox">View on Sandbox</a>
+<a href="https://codesandbox.io/p/github/kazim-kayhan/react-ts-note/sandbox">View on Sandbox</a>
 </p>
 
 ## Features
@@ -38,16 +32,12 @@ Mocking up web apps with <b>R-Ts-T</b><sup><em>(speed)</em></sup><br>
 
 ## Try it now!
 
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/kazim-kayhan/react-ts-tailwind/generate).
-
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit kazim-kayhan/react-ts-tailwind your-project-name
+git clone https://github.com/kazim-kayhan/react-ts-note.git your-project-name
 cd your-project-name
 yarn # If you don't have yarn installed, run: npm install -g yarn
 ```
@@ -64,11 +54,6 @@ When you use this template, try follow the checklist to update your info properl
 - [ ] Clean up the README's
 
 And, enjoy :)
-
-## Why
-
-I recently created several React apps, and the config setup was a bottleneck for me to quickly bring my ideas to life. To make the process easier, I created this starter template which includes some of the best practices I've learned from creating those apps. Feel free to customize it, star it, or even maintain your own fork.
-
 
 ## Usage
 
@@ -98,5 +83,4 @@ If pre-commit hooks are not working be sure that you have installed husky: `husk
 By default this command should be triggered after yarn/npm deps are installed.
 
 ### Deploy on Vercel
-
-Go to your [vercel](https://vercel.com) dashboard, click `Add New...` project and select your repository, `Import` along the way, and your App will be live in a minute.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/kazim-kayhan/react-ts-note)
